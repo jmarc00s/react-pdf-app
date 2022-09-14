@@ -3,7 +3,6 @@ import { Document, Page } from "react-pdf";
 
 interface PDFViewerProps {
   file: any;
-  usePagination: boolean;
 }
 
 export const PDFViewer = ({ file }: PDFViewerProps) => {
