@@ -10,7 +10,10 @@ export const Navbar = () => {
         </li>
 
         <li className="hover:text-slate-300">
-          <Link to={"/External"}>External</Link>
+          <Link to={"/external"}>External</Link>
+        </li>
+        <li className="hover:text-slate-300">
+          <Link to={"/modal"}>Modal</Link>
         </li>
       </ul>
     </nav>
