@@ -3,5 +3,10 @@ import React from "react";
 import lorem from "assets/lorem.pdf";
 
 export const Internal = () => {
-  return <PDFViewer file={lorem} />;
+  return (
+    <section>
+      <h1 className="text-lg text-center pb-4">PDF loaded by assets</h1>
+      <PDFViewer file={lorem} />
+    </section>
+  );
 };
